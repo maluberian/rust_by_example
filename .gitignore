@@ -25,3 +25,7 @@ hello_world
 fmt
 list
 city
+prim
+list_ops
+tuples
+arrays_and_slices

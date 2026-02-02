@@ -31,3 +31,5 @@ tuples
 arrays_and_slices
 structures
 enums
+mutability
+var_bindings

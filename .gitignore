@@ -33,3 +33,6 @@ structures
 enums
 mutability
 var_bindings
+convert
+tostring
+tryfrominto

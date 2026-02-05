@@ -36,3 +36,6 @@ var_bindings
 convert
 tostring
 tryfrominto
+forrange
+ifelse
+loopreturn

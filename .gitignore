@@ -40,3 +40,4 @@ forrange
 ifelse
 loopreturn
 hof
+genimpl

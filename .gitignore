@@ -41,3 +41,5 @@ ifelse
 loopreturn
 hof
 genimpl
+drop
+mut

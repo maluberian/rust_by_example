@@ -6,5 +6,10 @@ fn main() -> Result<(), ParseIntError> {
 
     println!("{} = {} = {}", a, b, a - b);
 
+    let y = String::from("56").parse::<i32>().and_then(|y| {
+        String::from("75").parse::<i32>().map(|y2| y2 * y)
+    });
+    println!("{:?}", y);
+
     return Ok(());
 }

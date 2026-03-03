@@ -53,3 +53,5 @@ map
 and_then
 or
 result
+multi_err
+result_iter

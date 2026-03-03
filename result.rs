@@ -11,5 +11,13 @@ fn main() -> Result<(), ParseIntError> {
     });
     println!("{:?}", y);
 
+    let d = String::from("76").parse::<i32>()?;
+    let e = String::from("23").parse::<i32>()?;
+    println!("{} * {} = {}", d, e, d * e);
+
+    let f = try!(String::from("76").parse::<i32>());
+    let g = try!(String::from("6").parse::<i32>());
+    println!("{} / {} = {}", f, g, f / g);
+
     return Ok(());
 }

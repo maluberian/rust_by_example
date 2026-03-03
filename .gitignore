@@ -46,3 +46,12 @@ mut
 traits
 ops
 macro
+error
+option_unwrap
+quest
+map
+and_then
+or
+result
+multi_err
+result_iter
